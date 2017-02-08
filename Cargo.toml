@@ -1,0 +1,12 @@
+[package]
+name = "hello_iron"
+version = "0.1.0"
+authors = ["clintonbess <clintonbess3@gmail.com>"]
+
+[dependencies]
+time = "0.1"
+router = "*"
+rustc-serialize = "*"
+[dependencies.iron]
+version = "*"
+
